@@ -11,7 +11,7 @@ A 2D webgl shader with a varying color attribute
 ```javascript
 var shell = require("gl-now")()
 var createBuffer = require("gl-buffer")
-var createSimpleShader = require("../shader.js")
+var createSimpleShader = require("simple-2d-shader")
 
 var shader, buffer
 
