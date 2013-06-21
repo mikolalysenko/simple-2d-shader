@@ -1,0 +1,36 @@
+{
+  "name": "simple-2d-shader",
+  "version": "0.0.0",
+  "description": "A simple 2D shader",
+  "main": "shader.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "gl-shader": "~0.0.3"
+  },
+  "devDependencies": {
+    "gl-buffer": "~0.0.0",
+    "gl-now": "~0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/simple-2d-shader.git"
+  },
+  "keywords": [
+    "webgl",
+    "shader",
+    "2d",
+    "example"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "aae2b89c6b868e642db82e6d4efd57e9c0552930",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/simple-2d-shader/issues"
+  }
+}
