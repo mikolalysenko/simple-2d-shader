@@ -6,6 +6,8 @@ A 2D webgl shader with a varying color attribute
 
 ## Example
 
+[Try this example in your browser](http://mikolalysenko.github.io/simple-2d-shader/)
+
 ```javascript
 var shell = require("gl-now")()
 var createBuffer = require("gl-buffer")
@@ -33,6 +35,10 @@ shell.on("gl-render", function(t) {
   buffer.draw(shell.gl.TRIANGLES, 3)
 })
 ```
+
+Here is a screen shot:
+
+<img src=https://raw.github.com/mikolalysenko/simple-2d-shader/master/images/simple2dshader.png>
 
 ## Install
 
